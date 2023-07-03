@@ -6,11 +6,12 @@
 int main()
 {
     std::cout << "Hello World!\n";
-    int a, b,sum,raz,proizv;
+    int a, b,sum,raz,proizv,ost;
     std::cin >> a >> b;
     sum = a + b;
     raz = a - b;
     proizv = a * b;
+    ost = a % b;
     std::cout << sum << std::endl << raz << std::endl << proizv;
 }
 
