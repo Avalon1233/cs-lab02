@@ -2,17 +2,19 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main()
 {
     std::cout << "Hello World!\n";
     int a, b,sum,raz,proizv,ost;
-    std::cin >> a >> b;
+    cin >> a >> b;
     sum = a + b;
     raz = a - b;
     proizv = a * b;
     ost = a % b;
-    std::cout << sum << std::endl << raz << std::endl << proizv;
+    cout << sum << endl << raz << endl << proizv;
+    if (a > b) cout << "Max number = " << a << endl;
+    else cout << "Max number = " << b << endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
