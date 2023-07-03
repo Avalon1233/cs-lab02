@@ -6,6 +6,10 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    int a, b,sum,raz;
+    std::cin >> a >> b;
+    sum = a + b;
+    raz = a - b;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
