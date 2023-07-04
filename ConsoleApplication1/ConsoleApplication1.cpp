@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
     std::cout << "Hello World!\n";
-    int a, b,sum,raz,proizv,ost;
+    double a, b,sum,raz,proizv,ost;
     cin >> a >> b;
     sum = a + b;
     raz = a - b;
